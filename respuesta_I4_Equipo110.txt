@@ -2,3 +2,7 @@ Nieva Julian
 Dattilo Damian
 Kripper Mateo
 
+A- Quedo de color Azul
+B- Quedo de color Amarillo
+C- Previo a arreglar el conflicto, estaba en Blanco. Solucionando el conflicto quedo en Amarillo.
+D- Quedo el de ALFA
