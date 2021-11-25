@@ -6,3 +6,10 @@ A- Quedo de color Azul
 B- Quedo de color Amarillo
 C- Previo a arreglar el conflicto, estaba en Blanco. Solucionando el conflicto quedo en Amarillo.
 D- Quedo el de ALFA
+E- Si, los que tuvieron problemas fueron BETA y GAMMA
+F- El problema que surgio es que nuestra rama local quedo desactualizada a la remota
+G- Las soluciones que se podria aplicar son: 
+*Actualizar la rama local con el git pull apenas nos tira el error del git push, para asi solucionar el conflicto presente de forma manual y mantener lo deseado en el repositorio remoto
+*Otra posible solucion es utilizar git push -f, que esto genera que los commits del respositorio local, pasen a ser los commits del respositorio remoto, y asi mismo sobreescribiendo los archivos
+H- Al utilizar el git push -f, descarta todos los commits realizados anteriormente en el repositorio remoto, para asi dejar al mismo con el estado del repositorio local de aquel que haga el git push -f
+I- Lo que se puede hacer es un git merge, el cual obviamente tiraria un conflicto entre archivos. Para ello lo solucionamos editando el archivo que genere conflicto
